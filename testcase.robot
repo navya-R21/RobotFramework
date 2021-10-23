@@ -31,7 +31,7 @@ Go to Google
     Wait Until Page Contains Element  ${select_product}    timeout=20s
     Click Element    ${select_product}             
     Switch Window    ${handle}          
-    Click Element    xpath://*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button
+    #Click Element    xpath://*[@id="container"]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button
     
     #to check whwther item is present in cart
     Switch Window    ${first}
